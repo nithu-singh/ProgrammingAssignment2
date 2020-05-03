@@ -3,7 +3,7 @@
 #This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = Matrix()) {
-  Mx_inv <- NULL
+  Mx_inv <- NULL #Here Mx_inv is the inverse of the square invertible matrix.
   set <- function(y) {
     x <<- y
     Mx_inv <<- NULL
